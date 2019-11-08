@@ -10,10 +10,13 @@ h1 {
 }
 img {
     vertical-align: middle;
+}
+
+.section-header > img {
     width: 50%;
 }
 .container {
-    width: 1024px;
+    width: 1200px;
     padding: 0;
     margin-right:auto;
     margin-left:auto;
@@ -25,4 +28,10 @@ img {
 
 .title > h1 {
     text-align: center;
+}
+/* .timeline {
+    text-align: center;
+} */
+.timeline > img {
+    width: 70%;
 }
