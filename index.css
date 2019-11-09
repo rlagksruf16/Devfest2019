@@ -118,15 +118,16 @@ img {
         width: 110px;
         height: 40px;
         text-align: left;
+        margin-left: 3px;
     }
     .speaker-name {
-        font-size: 15px;
+        font-size: 13px;
         /* margin-left: 20px; */
         text-align: center;
-        width: 50px;
+        width: 60px;
         height: 30px;
-        margin-left: 10px;
-        display: flex;
+        margin-left: 5px;
+        display: center;
     }
     .item-row-header {
         margin: 13px 13px 13px 13px;
