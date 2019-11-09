@@ -30,9 +30,13 @@ img {
 .title > h1 {
     text-align: center;
 }
-/* .timeline {
-    text-align: center;
-} */
+.event-method {
+    margin-left: 250px;
+}
+.event-method > h1 {
+    text-align: left;
+    font-size: 20px;
+}
 .timeline > img {
     width: 70%;
 }
@@ -55,6 +59,9 @@ img {
         height: 100px;
         margin: 0;
         float: left;
+    }
+    .start-time {
+        font-weight: 600;
     }
     .spec-item {
         display: flex;
