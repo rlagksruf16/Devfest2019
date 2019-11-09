@@ -42,6 +42,11 @@ img {
         margin: 16px 0px;
         display: flex;
     }
+    .timeline-row-name {
+        margin: 16px 3px;
+        display: flex;
+        height: 60px;
+    }
     .spec-time {
         font-size: 17px;
         color: rgb(63,63,63);
@@ -64,9 +69,12 @@ img {
     }
     .spec-item-first {
         display: flex;
-        margin-left: 40px;
+        margin-left: 80px;
         flex: 1 1 0%;
         padding: 16px 16px;
+    }
+    .spec-item-first:first-child,:last-child {
+        width: 250;
     }
     .spec-card {
         display: flex;
@@ -76,8 +84,8 @@ img {
         /* padding: 16px 16px; */
     }
     .item-row {
-        width: 265px;
-        margin-right: 17px;
+        width: 260px;
+        margin-right: 16px;
     }
     .item-row-card {
         border-style: solid;
