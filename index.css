@@ -12,7 +12,12 @@ h1 {
 img {
     vertical-align: middle;
 }
-
+a {
+    color: grey;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 24px;
+}
 .section-header > img {
     width: 50%;
 }
@@ -158,6 +163,11 @@ img {
         padding: 4px 8px;
         font-weight: 600;
         /* color: white; */
+    }
+    .footer {
+        margin-top: 50px;
+        height: 40px;
+        text-align: center;
     }
 
 
